@@ -33,7 +33,7 @@ toto = Toto::Server.new do
   set :ext, 'markdown'
   set :summary, :max => 5000, :delim => /<more>/
  # set :disqus, 'cloud8421'
-  set :cache, 7200
+ # set :cache, 7200
   
 end
 
