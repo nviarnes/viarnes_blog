@@ -90,7 +90,8 @@ body header.navigation nav ul li a:hover {
   color: #b53131;
 }
 a {
-  color: #b83000;
+  	color:#99030C;
+	text-decoration:none;
 }
 a:hover {
   text-decoration: underline;
