@@ -8,11 +8,11 @@ desc "Create a new article."
 task :new do
   title = ask('Title: ')
   slug = title.empty?? nil : title.strip.slugize
-
   article = {'title' => title, 'date' => Time.now.strftime("%d/%m/%Y")}.to_yaml
+
   article << "\n"
   article << "Once upon a time...\n\n"
-
+  
   path = "#{Toto::Paths[:articles]}/#{Time.now.strftime("%Y-%m-%d")}#{'-' + slug if slug}.#{@config[:ext]}"
 
   unless File.exist? path

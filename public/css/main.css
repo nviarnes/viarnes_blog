@@ -1,110 +1,274 @@
-html { margin: 20px }
+/*
+	Standard classes.less file - Useful to save time with Less coding
+	Credit goes to Jeffrey Way - see:
+	http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-never-type-a-vendor-prefix-again/
+*/
+.standard_paragraph {
+  margin: 16px 0;
+}
+.standard_paragraph:first-child {
+  margin-top: 0;
+}
+.standard_paragraph:last-child {
+  margin-bottom: 0;
+}
 body {
   margin: 0 auto;
-  font-family: 'Baskerville', Georgia, Times, serif;
-  font-size: 20px;
-  line-height: 30px;
+  font-family: 'Kreon', Georgia, Times, serif;
+  font-size: 16px;
+  line-height: 32px;
   padding: 15px;
-  width: 720px;
-
+  width: 650px;
+  background-color: white;
 }
-header, footer, section, article {
-	display: block;
+body h1, body h2, body h3 {
+  font-family: 'Yanone Kaffeesatz', Helvetica, Arial;
+  font-weight: 500;
 }
-#content {
+body header.navigation {
+  margin-top: 6px;
+  height: 80px;
+  display: block;
+}
+body header.navigation h1 {
+  margin-top: 4px;
+  width: 400px;
+  float: left;
+  color: #99030c;
+  font-size: 32px;
+}
+body header.navigation nav {
+  float: right;
+  font-family: 'Helvetica', Arial, Sans-serif;
+}
+body header.navigation nav ul {
+  background: #666666;
+  display: inline-block;
+  padding: 5px 10px 5px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 1;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-box-shadow: 0 1px 3px #999;
+  -webkit-box-shadow: 0 1px 3px #999;
+  text-shadow: 0 -1px 1px #222222;
+  border-bottom: 1px solid #222;
+  position: relative;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 8px 0 12px 0;
+  color: #FFF;
+}
+body header.navigation nav ul li {
+  display: inline;
+  margin: 0 6px 0 6px;
+}
+body header.navigation nav ul li:last-child {
+  margin-right: 0px;
+}
+body header.navigation nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+body header.navigation nav ul li a:hover {
+  color: #FFF;
+  text-decoration: underline;
 }
 #by {
-	font-style: italic;
+  font-style: italic;
   margin-right: 5px;
-	font-size: 28px;
+  font-size: 28px;
 }
 #caption {
-	position: absolute;
-	font-size: 24px;
-	margin: -135px 0 0 70px;
+  position: absolute;
+  font-size: 24px;
+  margin: -135px 0 0 70px;
 }
 #path {
-	color: #b53131;
-}
-.date {
-  font-style: italic;
-  float: right;
-  line-height: 43px;
-  margin-right: 30px;
+  color: #b53131;
 }
 a {
   color: #b83000;
 }
-h1 a {
-  color: black;
-  text-decoration: none;
-}
 a:hover {
   text-decoration: underline;
 }
-body > header > h1 {
-	border-left: 30px solid black;
-	padding-left: 30px;
-  font-size: 201px;
-  margin: 100px 0 15px 0;
-  font-weight: normal;
+.glyph_container {
+  text-align: center;
+  margin: 0 auto;
 }
-.post header {
-	margin-bottom: 10px;
+.glyph_container p {
+  font-size: 24px;
+  color: #AAA;
 }
-.post .body p:first-child {
-	margin-top: 0;
-}
-.post .body p:last-child {
-	margin-bottom: 0;
-}
-.post {
-	margin-bottom: 30px;
-}
-.post:last-child {
-  margin-bottom: 10px;
-}
-.post p {
-  margin: 10px 0;
-}
-.post .more {
-  margin-top: -10px;
-  margin-right: 30px;
-  font-style: italic;
-  text-align: right;
-}
-.more a {
-  text-decoration: none;
-}
-.more a:hover { text-decoration: underline }
-body > header {
-	display: block;
-	padding-top: 30px;
-	line-height: 180px;
-	margin-bottom: 20px;
-}
-h1, h2, h3, h4 {
-  display: inline;
-  margin: 0;
-  font-weight: 600;
-}
-ul, li {
-  list-style-type: none;
-}
-code {
-  font-family: 'Anonymous Pro', 'Bitstream Vera Sans', 'Monaco', Courier, mono;
+#main {
+  clear: both;
+  min-height: 400px;
 }
 pre {
-  padding: 20px;
+  margin-left: 12px;
+}
+pre code {
+  font-family: Monaco, Monospace, Arial, serif;
+  font-size: 14px;
+}
+.post {
+  margin: 10px 0 10px 0;
+  border-top: 1px solid #CCC;
+}
+.post header {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.post header h2 {
+  display: inline;
+  color: #99030c;
+  margin: 6px 0 6px 0;
+  font-size: 22px;
+}
+.post header h2 a {
+  color: #99030c;
+  text-decoration: none;
+}
+.post header .actions {
+  float: right;
+}
+.post header .actions .disqus_count a {
+  position: relative;
+  color: #444444;
+  font-size: 12px;
+  font-family: 'Yanone Kaffeesatz', Arial, "MS Trebuchet", sans-serif;
+  margin-left: 6px;
+  text-decoration: none;
+}
+.post header .actions .disqus_count a:hover {
+  color: #BBB;
+  text-decoration: underline;
+}
+.post header .actions .twitter-share-button {
+  position: relative;
+  top: 4px;
+}
+.post header .actions .date {
+  font-family: 'Kreon';
+  font-style: italic;
+  font-size: 12px;
+  margin-left: 6px;
+}
+.post h3 {
+  font-size: 18px;
+  color: #99030c;
+}
+.post p, .post ul {
+  margin: 16px 0;
+}
+.post p:first-child, .post ul:first-child {
+  margin-top: 0;
+}
+.post p:last-child, .post ul:last-child {
+  margin-bottom: 0;
+}
+.post p li, .post ul li {
+  margin-left: 18px;
+}
+.post p a, .post ul a {
+  color: #99030c;
+  text-decoration: none;
+}
+.post p a:hover, .post ul a:hover {
+  text-decoration: underline;
+}
+.post .img_container {
+  margin: 0 auto;
+  text-align: center;
+}
+.post .img_container img.frame {
+  padding: 10px;
+  background: #eee;
+  border: 1px solid #fff;
+  -webkit-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.6);
+}
+.post .more {
+  text-align: center;
+  font-family: 'Helvetica', Arial, "Sans serif";
+}
+.post .more a {
+  text-align: center;
+  background: #666666;
+  display: inline-block;
+  padding: 5px 10px 5px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 1;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-box-shadow: 0 1px 3px #999;
+  -webkit-box-shadow: 0 1px 3px #999;
+  text-shadow: 0 -1px 1px #222222;
+  border-bottom: 1px solid #222;
+  position: relative;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 8px 0 12px 0;
+  color: #FFF;
+  text-decoration: none;
+}
+.post .more a:hover {
+  color: #FFF;
+  text-decoration: underline;
 }
 blockquote {
+  margin: 0 16px 0 16px;
+  font-size: 16px;
   font-style: italic;
+  padding: 0 8px 0 8px;
+  border-left: 4px solid #CCC;
 }
-
-body > footer {
-  text-align: left;
-  margin-left: 10px;
-	font-style: italic;
-  font-size: 18px;
-  color: #888;
+#archives ul {
+  margin-bottom: 50px;
+}
+#archives ul li {
+  color: #99030c;
+  list-style-type: none;
+  clear: both;
+  margin-left: -33px;
+}
+#archives ul li a {
+  color: #99030c;
+  text-decoration: none;
+}
+#archives ul li a h3 {
+  font-family: 'Yanone Kaffeesatz', Helvetica, Arial;
+  font-weight: 300;
+  float: left;
+}
+#archives ul li a:hover {
+  text-decoration: underline;
+}
+#archives ul li .date {
+  font-style: italic;
+  font-size: 12px;
+  margin-left: 6px;
+  color: #444444;
+  float: right;
+}
+footer {
+  clear: both;
+  text-align: center;
+  font-size: 13px;
+  border-top: 1px solid #CCC;
+}
+#about_container p {
+  margin: 16px 0;
+}
+#about_container p:first-child {
+  margin-top: 0;
+}
+#about_container p:last-child {
+  margin-bottom: 0;
 }

@@ -1,8 +1,7 @@
-
 require 'toto'
 
 # Rack config
-use Rack::Static, :urls => ['/css', '/js', '/images', '/favicon.ico'], :root => 'public'
+use Rack::Static, :urls => ['/css', '/js', '/img', '/favicon.ico'], :root => 'public'
 use Rack::CommonLogger
 
 if ENV['RACK_ENV'] == 'development'
@@ -28,6 +27,14 @@ toto = Toto::Server.new do
   # set :cache,      28800                                    # cache duration, in seconds
 
   set :date, lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
+  set :author, "Nico Viarnes"
+  set :title, "Viarn.es"
+  set :url, "http://viarnesblog.heroku.com/"
+  set :ext, 'markdown'
+  set :summary, :max => 5000, :delim => /<more>/
+ # set :disqus, 'cloud8421'
+  set :cache, 7200
+  
 end
 
 run toto
