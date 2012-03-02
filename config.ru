@@ -31,7 +31,7 @@ toto = Toto::Server.new do
   set :title, "Viarn.es"
   set :url, "http://viarnesblog.heroku.com/"
   set :ext, 'markdown'
-  set :summary, :max => 5000, :delim => /<more>/
+  set :summary, :max => 10000, :delim => /<more>/
  # set :disqus, 'cloud8421'
  # set :cache, 7200
   

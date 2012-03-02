@@ -9,7 +9,7 @@ It has been a long twenty-four hours but I've got Toto up and running on Heroku 
 
 I haven't had nearly enough time to hack for fun lately and I feel quite out of practice. Ruby is my native tongue but lately I have acquired a taste for Python so stay tuned for some Pythonian escapades to come! This blog is partially about me reestablishing a bit of a web presence, but mostly about my ongoing journey of self discovery (and more often than not, self destruction....I'm working on it.)
 
-I've found that <a href="https://github.com/cloudhead/toto">Toto</a> is an amazingly flexible and light weight blogging engine that allows for awesome performance, built in version tracking with <a href="http://www.github.com>Git</a>, and awesome potential for customization! So far I'm really enjoying the wiggle room Toto gives me and I plan on seeing how far I can stretch it's limits.
+I've found that <a href="https://github.com/cloudhead/toto">Toto</a> is an amazingly flexible and light weight blogging engine that allows for awesome performance, built in version tracking with <a href="https://www.github.com">Git</a>, and awesome potential for customization! So far I'm really enjoying the wiggle room Toto gives me and I plan on seeing how far I can stretch it's limits.
 
 That's it for today folks. My first official blog post ever. I think I'll frame it.
 
