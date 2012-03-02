@@ -1,5 +1,0 @@
---- 
-title: Spring Break
-date: 01/03/2012
-
-http://www.yelp.com/biz/star-meats-berkeleyhttp://www.yelp.com/biz/star-meats-berkeleyhttp://www.yelp.com/biz/star-meats-berkeleyhttp://www.yelp.com/biz/star-meats-berkeleyhttp://www.yelp.com/biz/star-meats-berkeleyhttp://www.yelp.com/biz/star-meats-berkeleyhttp://www.yelp.com/biz/star-meats-berkeleyhttp://www.yelp.com/biz/star-meats-berkeleyhttp://www.yelp.com/biz/star-meats-berkeleyhttp://www.yelp.com/biz/star-meats-berkeleyhttp://www.yelp.com/biz/star-meats-berkeleyhttp://www.yelp.com/biz/star-meats-berkeleyhttp://www.yelp.com/biz/star-meats-berkeleyhttp://www.yelp.com/biz/star-meats-berkeleyhttp://www.yelp.com/biz/star-meats-berkeleyhttp://www.yelp.com/biz/star-meats-berkeleyhttp://www.yelp.com/biz/star-meats-berkeleyhttp://www.yelp.com/biz/star-meats-berkeleyhttp://www.yelp.com/biz/star-meats-berkeleyhttp://www.yelp.com/biz/star-meats-berkeleyhttp://www.yelp.com/biz/star-meats-berkeleyhttp://www.yelp.com/biz/star-meats-berkeleyhttp://www.yelp.com/biz/star-meats-berkeley
