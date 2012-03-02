@@ -43,6 +43,7 @@ body header.navigation nav {
 }
 body header.navigation nav ul {
   background: #666666;
+  width: 630px;
   display: inline-block;
   padding: 5px 10px 5px;
   color: #fff;
@@ -58,7 +59,7 @@ body header.navigation nav ul {
   position: relative;
   cursor: pointer;
   font-size: 14px;
-  margin: 8px 0 12px 0;
+  margin: 18px 0 12px 0;
   color: #FFF;
 }
 body header.navigation nav ul li {
@@ -71,6 +72,7 @@ body header.navigation nav ul li:last-child {
 body header.navigation nav ul li a {
   text-decoration: none;
   color: white;
+  margin-left:75px;
 }
 body header.navigation nav ul li a:hover {
   color: #FFF;
